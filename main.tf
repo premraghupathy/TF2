@@ -7,3 +7,5 @@ resource "aws_instance" "prem_tf_created"  {
 	ami="ami-0e86e20dae9224db8"
 	subnet_id="subnet-04edb3ea22236883e" 	
 }
+
+
