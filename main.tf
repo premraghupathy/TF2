@@ -3,6 +3,7 @@
 variable "server_port" {
 	description="the http server port"
 	type = number
+	default=8079
 }
 # 1. terraform will promptto entre a value
 # 2. terraform apply -var "server_port=8090"
